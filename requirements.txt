@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+pandas
+dbt-mysql
+dbt
+apache-airflow
+SQLAlchemy
+mysql-connector-python
+=======
+pandas
+dbt-mysql
+dbt
+apache-airflow
+SQLAlchemy
+mysql-connector-python
+>>>>>>> 180eecfca3ec4bb78ecab4d20b6b0851c0265db9
+apache-airflow-providers-postgres
