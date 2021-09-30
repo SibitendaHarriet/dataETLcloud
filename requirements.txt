@@ -4,7 +4,7 @@ dbt-mysql
 dbt
 apache-airflow
 SQLAlchemy
-mysql-connector-python
+mysql-connector-python  
 =======
 pandas
 dbt-mysql

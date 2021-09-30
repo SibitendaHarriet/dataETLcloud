@@ -1,11 +1,24 @@
-your_profile_name: default
-target: dev
-outputs:
-dev:
-type: mysql
-server: mysqldb
-server: localhost
-port: 3306
-schema: analytics
-username: root
-password: root
+default:
+  outputs:
+
+    dev:
+      type: postgres
+      threads: 4
+      host: localhost
+      port: 5432
+      user: me
+      pass: none
+      dbname: development
+      schema: development
+
+    prod:
+      type: postgres
+      threads: 4
+      host: localhost
+      port: 5432
+      user: me
+      pass: none
+      dbname: production
+      schema: production
+
+  target: dev

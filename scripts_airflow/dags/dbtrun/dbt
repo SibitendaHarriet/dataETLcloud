@@ -1,0 +1,6 @@
+dbt_run = DbtRunOperator(
+  task_id='dbt_run',
+  dbt_bin='/usr/local/airflow/.local/bin/dbt',
+  profiles_dir='/usr/local/airflow/dags/dbtrun/',
+  dir='/usr/local/airflow/dags/dbtrun/'
+)
